@@ -1,0 +1,20 @@
+#!/bin/bash
+
+for f in `ls *.flv`
+	do
+		echo $f|rename 's/\[迅雷免费高清下载]\.//'
+	done
+
+for f in `ls *.flv`
+	do
+		echo $f|rename 's/__480P标清\.xv//'
+	done
+for f in `ls *.flv`
+	do
+		echo $f|rename 's/__第//'
+	done
+for f in `ls *.flv`
+	do
+		echo $f|rename 's/集//'
+	done
+echo "Finished!" 
