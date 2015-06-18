@@ -11,21 +11,21 @@ COLOR_WHITE="\E[37m"
 
 COLOR_END="\E[0m"
 
-log-error(){
+log_error(){
     printf "$COLOR_RED ERROR: $COLOR_END"
     printf "$@\n"
 }
 
-log-waring(){
-    printf "$COLOR_MAGENT ERROR: $COLOR_END"
+log_waring(){
+    printf "$COLOR_MAGENT WARINNG: $COLOR_END"
     printf "$@\n"
 }
-log-debug(){
+log_debug(){
     printf "$COLOR_GREEN DEBUG: $COLOR_END"
     printf "$@\n"
 }
-log-info(){
-    printf "$COLOR_BLACK DEBUG: $COLOR_END"
+log_info(){
+    printf "$COLOR_BLACK INFO: $COLOR_END"
     printf "$@\n"
 }
 

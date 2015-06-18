@@ -2,7 +2,7 @@
 
 source ../log-api.sh
 
-log-error "hello"
-log-waring "hello"
-log-info "hello"
-log-debug "hello"
+log_error "hello"
+log_waring "hello"
+log_info "hello"
+log_debug "hello"
